@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: rgb(117, 247, 247);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  border: 1px solid gray;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  margin: 20px auto;
+}
+
+.kart {
+  background: rgb(117, 247, 247);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 10px;
+  border: rgba(270, 270, 270, 0.5);
+  height: 500px;
+  width: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.kartlarim {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 23px;
+}
+
+.iconlar {
+  padding: 10px;
+  font-size: 24px;
+}
+
+.iconlar a {
+  display: inline-block;
+  margin: 0 10px;
+  color: rgb(75, 129, 176);
+}
+
+.iconlar a:hover {
+  color: black;
+}
+
+button {
+  height: 30px;
+  width: 120px;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: none;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+button:hover {
+  background: gray;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-instagram {
+  color: red;
+}
+
+.fa-twitter {
+  color: rgb(34, 34, 235);
+}
+
+.fa-brands:hover {
+  color: gray;
+}
